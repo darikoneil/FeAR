@@ -861,4 +861,4 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/Prefabs/FeAR_Scene.unity
-  playerPath: C:/Users/YUSTE/Documents/GitHub/FeAR/BUILD2/FeAR.exe
+  playerPath: C:/Users/YUSTE/Documents/GitHub/FeAR/BUILD_MONO/FeAR.exe

@@ -114,7 +114,7 @@ public class MManager : MonoBehaviour
         serialPort.Write(unityCMD);
         //Debug.Log("Unity Command Sent");
         pulses = Int32.Parse(serialPort.ReadLine());
-        deltaMov = DefSpeed * pulses;
+        deltaMov = DefSpeed * pulses * -1;
         Vector3 MouseDelta = new Vector3(deltaMov, 0.0f, 0.0f);
         MouseBody.position = MouseBody.position + MouseDelta;
         //Debug.LogFormat("{0} pulses counted and the deltaMov was {1}", pulses, deltaMov);

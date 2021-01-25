@@ -142,7 +142,7 @@ public class FManager : MonoBehaviour
         for(int i = 1; i <= NumStim; i++)
         {
             stimTimePairs.Add("Stim "+i, ((tempAns*i)+HabTime));
-            _stimFramePairs.Add("Stim" + i, ((tempAnsFrames * i) + habFrames + startFrame));
+            _stimFramePairs.Add("Stim " + i + "", ((tempAnsFrames * i) + habFrames + startFrame));
             //Debug.LogFormat("{0} is tempAns and {1} is i", tempAns, i);
         }
     }
